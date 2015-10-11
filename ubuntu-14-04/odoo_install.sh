@@ -58,7 +58,8 @@ echo -e "\n---- Install python packages ----"
 sudo apt-get install python-dateutil python-feedparser python-ldap python-libxslt1 python-lxml python-mako python-openid python-psycopg2 python-pybabel python-pychart python-pydot python-pyparsing python-reportlab python-simplejson python-tz python-vatnumber python-vobject python-webdav python-werkzeug python-xlwt python-yaml python-zsi python-docutils python-psutil python-mock python-unittest2 python-jinja2 python-pypdf python-decorator python-requests python-passlib python-pil -y
 	
 echo -e "\n---- Install python libraries ----"
-sudo pip install gdata
+sudo pip install gdata 
+
 
 echo -e "\n---- Install wkhtml and place on correct place for ODOO 8 ----"
 sudo wget http://download.gna.org/wkhtmltopdf/0.12/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
